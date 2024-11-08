@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+#header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  box-shadow: black 1px 1px 10px;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  padding: 30px;
+  z-index: 9999;
+}
+#header input {
+  padding: 20px;
+  width: 30%;
+  height: 20px;
+  outline: none;
+  border: 1px solid #0c20ef54;
+
+  border-radius: 10px;
+  box-shadow: 0.1px 0.1px 5px #666db7;
+}
+#header input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.562);
+}
+#header img {
+  width: 45px;
+  height: 35px;
+  padding: 2px;
+}
+#header .logo p {
+  color: rgb(97 97 97);
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block;
+}
+#header .logo p:hover{
+    font-size: 41px;
+    transition-duration: 200ms;
+}
+#header .logo span {
+  color: rgba(97, 97, 97, 0.541);
+  font-weight: bold;
+  font-size: 40px;
+}
+#header ul {
+    width: 50%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#header ul a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-weight: bold;
+    font-size: 22px;
+    transition:  3ms;
+}
+
+#header ul li:hover {
+    color: black;
+    border-bottom: 3px solid blue; 
+}
+
+  
+/* home_page */
+
+#home .imghome{
+    width: 30%;
+}
+#home div{
+    margin: 100px;
+    padding-left: 220px;
+    
+    width: 40%;
+    padding-top: 150px ;
+}
+#home h1{
+    font-size: 50px;
+    color: #666db7;
+}
+#home h1:hover{
+    font-size: 50px;
+    color: #666db79f;
+}
+#home p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
