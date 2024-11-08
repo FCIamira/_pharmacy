@@ -1,209 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="product.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="payment.css">
-</head>
-<body>
-    <nav id="header" style="z-index: 11111;">
-        <div class="logo">
-            <img src="images/logo2-removebg-preview.png" alt="logo_image">
-            <p>Pharma<span>cy</span></p>
-        </div>
-        <input type="search" name="search" id="search" placeholder="search for ....">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#Products">Products</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#offers">Offers</a></li>
-            <li><a href="#contactus">Contact Us</a></li>
-            <li><a href="#pay">Pay</a></li>
-        </ul>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="product.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="payment.css">
+    </head>
+    <body>
+        <nav id="header" style="z-index: 11111;">
+            <div class="logo">
+                <img src="images/logo2-removebg-preview.png" alt="logo_image">
+                <p>Pharma<span>cy</span></p>
+            </div>
+            <input type="search" name="search" id="search"
+                placeholder="search for ....">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+                <li><a href="#pay">Pay</a></li>
+            </ul>
+        </nav>
 
-    <div class="parent">
-        <section id="home">
-            <video autoplay muted loop style="width: 100%;">
-                <source src="video/Pharmacy - 2D Animated Video.mp4" type="video/mp4">
-            </video>
+        <div class="parent">
+            <section id="home">
+                <video autoplay muted loop style="width: 100%;">
+                    <source src="video/Pharmacy - 2D Animated Video.mp4"
+                        type="video/mp4">
+                </video>
+            </section>
+
+            <section id="Products"
+                style="height: 100vh; display: grid; grid-template-rows: repeat(3, 30%);">
+                <h1>Products</h1>
+                <div class="department">
+                    <div class="r1">
+                        <a href="products/Headache.html"><img
+                                src="images/Shop By Symptoms/Headache.jpg"
+                                class="icon"></a>
+                        <p class="paragraph">Headache</p>
+                    </div>
+                    <section class="r1"><a href="products/Skin_Care.html"><img
+                                src="images/prodect_img/s8.jpeg" alt
+                                class="icon"></a><p>Skin Care</p></section>
+                    <section class="r1"><a
+                            href="products/Allergy&Sinus.html"><img
+                                src="images/Browse By Categories/Eye and Ear Care.jpg"
+                                class="icon"></a><p class="paragraph">Allergy &
+                            Sinus</p></section>
+                    <section class="r1"><a href="products/Hair_Care.html"><img
+                                src="images/prodect_img/s10.jpeg" alt
+                                class="icon"></a><p>Hair Care</p></section>
+                    <section class="r1"><a href="products/Cough.html"><img
+                                src="images/Browse By Categories/istockphoto-1140469694-612x612.jpg"
+                                class="icon"></a><p
+                            class="paragraph">Cough</p></section>
+                    <section class="r1"><a
+                            href="products/Constipation.html"><img
+                                src="images/Browse By Categories/images.jfif"
+                                class="icon"></a><p
+                            class="paragraph">Constipation</p></section>
+                </div>
+
+                <div class="department">
+                    <section class="r1"><a href="products/Oral Care.html"><img
+                                src="images/prodect_img/s3.jpeg" alt
+                                class="icon"></a><p>Oral Care</p></section>
+                    <section class="r1"><a href="products/Diarrhea.html"><img
+                                src="images/Browse By Categories/Personal Care.jpg"
+                                class="icon"></a><p
+                            class="paragraph">Diarrhea</p></section>
+                    <section class="r1"><a href="products/Fever.html"><img
+                                src="images/Browse By Categories/Vitamin and Supplements.jpg"
+                                class="icon"></a><p
+                            class="paragraph">Fever</p></section>
+                    <section class="r1"><a href="products/Vomiting.html"><img
+                                src="images/Browse By Categories/Sun Care.jpg"
+                                class="icon"></a><p
+                            class="paragraph">Vomiting</p></section>
+                    <section class="r1"><a
+                            href="products/Personal_Care.html"><img
+                                src="images/prodect_img/s4.jpeg" alt
+                                class="icon"></a><p>Personal Care</p></section>
+                    <section class="r1"><a href="products/Skin_Care.html"><img
+                                src="images/prodect_img/s6.jpeg" alt
+                                class="icon"></a><p>Skin Care</p></section>
+                </div>
+
+                <div
+                    style="text-align: center;padding-top:30px ;padding-bottom: 30px;">
+                    <a href="products/all_prodect.html"><button>View All
+                            Products</button></a>
+                </div>
+            </section>
+        </div>
+
+        <section id="about" style="height: 100vh;">
+            <div style="margin: 150px; width: 40%;">
+                <div style="margin: 150px; width: 80%;">
+                    <h5>Learn More About Our Pharmacy</h5>
+                    <p class="description">At our pharmacy, we are dedicated to
+                        providing top-quality pharmaceutical services and
+                        healthcare support to our customers. We offer a wide
+                        range of high-quality medications and medical supplies
+                        to meet all your health needs.</p>
+                    <button>Read more</button>
+                </div>
+            </div>
         </section>
 
-        <section id="Products" style="height: 100vh; display: grid; grid-template-rows: repeat(3, 30%);">
-            <h1>Products</h1>
-            <div class="department">
-                <div class="r1">
-                    <a href="products/Headache.html"><img src="images/Shop By Symptoms/Headache.jpg" class="icon"></a>
-                    <p class="paragraph">Headache</p>
+        <section id="offers" style="height:100vh;">
+            <img src="images/offer2.jpg" alt width="100%"
+                style="margin-bottom: 100px;">
+            <div class="offer_ground">
+                <div
+                    style="background-color:rgb(97 97 97 / 9%); width: 20%; height: 35vh;">
+                    <h2>Enterprise</h2>
+                    <p>All-in-one package Pricing on Demand.</p>
+                    <p style="text-align: center;"><button>Try Now</button></p>
                 </div>
-                <section class="r1"><a href="products/Skin_Care.html"><img src="images/prodect_img/s8.jpeg" alt class="icon"></a><p>Skin Care</p></section>
-                <section class="r1"><a href="products/Allergy&Sinus.html"><img src="images/Browse By Categories/Eye and Ear Care.jpg" class="icon"></a><p class="paragraph">Allergy & Sinus</p></section>
-                <section class="r1"><a href="products/Hair_Care.html"><img src="images/prodect_img/s10.jpeg" alt class="icon"></a><p>Hair Care</p></section>
-                <section class="r1"><a href="products/Cough.html"><img src="images/Browse By Categories/istockphoto-1140469694-612x612.jpg" class="icon"></a><p class="paragraph">Cough</p></section>
-                <section class="r1"><a href="products/Constipation.html"><img src="images/Browse By Categories/images.jfif" class="icon"></a><p class="paragraph">Constipation</p></section>
-            </div>
-
-            <div class="department">
-                <section class="r1"><a href="products/Oral Care.html"><img src="images/prodect_img/s3.jpeg" alt class="icon"></a><p>Oral Care</p></section>
-                <section class="r1"><a href="products/Diarrhea.html"><img src="images/Browse By Categories/Personal Care.jpg" class="icon"></a><p class="paragraph">Diarrhea</p></section>
-                <section class="r1"><a href="products/Fever.html"><img src="images/Browse By Categories/Vitamin and Supplements.jpg" class="icon"></a><p class="paragraph">Fever</p></section>
-                <section class="r1"><a href="products/Vomiting.html"><img src="images/Browse By Categories/Sun Care.jpg" class="icon"></a><p class="paragraph">Vomiting</p></section>
-                <section class="r1"><a href="products/Personal_Care.html"><img src="images/prodect_img/s4.jpeg" alt class="icon"></a><p>Personal Care</p></section>
-                <section class="r1"><a href="products/Skin_Care.html"><img src="images/prodect_img/s6.jpeg" alt class="icon"></a><p>Skin Care</p></section> 
-            </div>
-
-            <div style="text-align: center;padding-top:30px ;padding-bottom: 30px;">
-                <a href="products/all_prodect.html"><button>View All Products</button></a>
+                <div
+                    style="background-color:rgb(97 97 97 / 9%); width: 20%; height: 35vh;">
+                    <h2>Enterprise</h2>
+                    <p>All-in-one package Pricing on Demand.</p>
+                    <p style="text-align: center;"><button>Try Now</button></p>
+                </div>
+                <div
+                    style="background-color:rgb(97 97 97 / 9%); width: 20%; height: 35vh;">
+                    <h2>Enterprise</h2>
+                    <p>All-in-one package Pricing on Demand.</p>
+                    <p style="text-align: center;"><button>Try Now</button></p>
+                </div>
             </div>
         </section>
-    </div>
 
-    <section id="about" style="height: 100vh;">
-        <div style="margin: 150px; width: 40%;">
-            <div style="margin: 150px; width: 80%;">
-                <h5>Learn More About Our Pharmacy</h5>
-                <p class="description">At our pharmacy, we are dedicated to providing top-quality pharmaceutical services and healthcare support to our customers. We offer a wide range of high-quality medications and medical supplies to meet all your health needs.</p>
-                <button>Read more</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="offers" style="height:100vh;">
-        <img src="images/offer2.jpg" alt="" width="100%" style="margin-bottom: 100px;">
-        <div class="offer_ground">
-            <div style="background-color:rgb(97 97 97 / 9%); width: 20%; height: 35vh;">
-                <h2>Enterprise</h2>
-                <p>All-in-one package Pricing on Demand.</p>
-                <p style="text-align: center;"><button>Try Now</button></p>
-            </div>
-            <div style="background-color:rgb(97 97 97 / 9%); width: 20%; height: 35vh;">
-                <h2>Enterprise</h2>
-                <p>All-in-one package Pricing on Demand.</p>
-                <p style="text-align: center;"><button>Try Now</button></p>
-            </div>
-            <div style="background-color:rgb(97 97 97 / 9%); width: 20%; height: 35vh;">
-                <h2>Enterprise</h2>
-                <p>All-in-one package Pricing on Demand.</p>
-                <p style="text-align: center;"><button>Try Now</button></p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contactus" style="height: 100vh;">
-        <div>
-            <h6 class="c1">Contact Us</h6>
-            <p>Please complete the form, and our team will contact you within 1-2 business days.</p>
-            <p style="color:#7043eb;">Click the button below to schedule a meeting with us.</p>
-            <a href="#" target="_blank"><button>Talk With Us</button></a>
-            <div class="email">
-                <h6 class="c1">Email</h6>
-                <p>support@gmail.com</p>
-            </div>
-        </div>
-
-        <form>
-            <input type="text" placeholder="Enter Your Full Name" required class="input1">
-            <input type="email" placeholder="Enter Your Email" required class="input1">
-            <input type="text" placeholder="Subject (Optional)" class="input2">
-            <textarea placeholder="Enter Your Message..."></textarea>
-            <button>Send Message</button>
-        </form>
-    </section>
-
-    <section id="pay" style="width: 100%; height:100vh;">
-        <div class="container">
-            <div id="Checkout" class="inline">
-                <h1>Pay Invoice</h1>
-                <div class="card-row">
-                    <img src="images/payment/mc.png" alt="">
-                    <img src="images/payment/vi.png" alt="">
-                    <img src="images/payment/pp.png" alt="">
-                    <img src="images/payment/4.png" alt="">
+        <section id="contactus" style="height: 100vh;">
+            <div>
+                <h6 class="c1">Contact Us</h6>
+                <p>Please complete the form, and our team will contact you
+                    within 1-2 business days.</p>
+                <p style="color:#7043eb;">Click the button below to schedule a
+                    meeting with us.</p>
+                <a href="#" target="_blank"><button>Talk With Us</button></a>
+                <div class="email">
+                    <h6 class="c1">Email</h6>
+                    <p>support@gmail.com</p>
                 </div>
-                <form>
-                    <div class="form-group">
-                        <label for="NameOnCard">Name on card</label>
-                        <input id="NameOnCard" class="form-control" type="text" maxlength="255">
+            </div>
+
+            <form>
+                <input type="text" placeholder="Enter Your Full Name" required
+                    class="input1">
+                <input type="email" placeholder="Enter Your Email" required
+                    class="input1">
+                <input type="text" placeholder="Subject (Optional)"
+                    class="input2">
+                <textarea placeholder="Enter Your Message..."></textarea>
+                <button>Send Message</button>
+            </form>
+        </section>
+
+        <section id="pay" style="width: 100%; height:100vh;">
+            <div class="container">
+                <div id="Checkout" class="inline">
+                    <h1>Pay Invoice</h1>
+                    <div class="card-row">
+                        <img src="images/payment/mc.png" alt>
+                        <img src="images/payment/vi.png" alt>
+                        <img src="images/payment/pp.png" alt>
+                        <img src="images/payment/4.png" alt>
                     </div>
-                    <div class="form-group">
-                        <label for="CreditCardNumber">Card number</label>
-                        <input id="CreditCardNumber" class="null card-image form-control" type="text">
-                    </div>
-                    <div class="form-group">
-                        <label for="ExpiryDate">Expiry date</label>
-                        <input id="ExpiryDate" class="form-control" type="text" placeholder="MM / YY" maxlength="7">
-                    </div>
-                    <div class="form-group">
-                        <label for="SecurityCode">Security code</label>
-                        <div class="input-container" style="display: inline-block;">
-                            <input id="SecurityCode" class="form-control" type="text">
-                            <i id="cvc" class="fa fa-question-circle"></i>
+                    <form>
+                        <div class="form-group">
+                            <label for="NameOnCard">Name on card</label>
+                            <input id="NameOnCard" class="form-control"
+                                type="text" maxlength="255">
                         </div>
-                    </div>
-                    <button id="PayButton" class="btn btn-block btn-success submit-button" type="submit">Pay</button>
-                </form>
+                        <div class="form-group">
+                            <label for="CreditCardNumber">Card number</label>
+                            <input id="CreditCardNumber"
+                                class="null card-image form-control"
+                                type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="ExpiryDate">Expiry date</label>
+                            <input id="ExpiryDate" class="form-control"
+                                type="text" placeholder="MM / YY" maxlength="7">
+                        </div>
+                        <div class="form-group">
+                            <label for="SecurityCode">Security code</label>
+                            <div class="input-container"
+                                style="display: inline-block;">
+                                <input id="SecurityCode" class="form-control"
+                                    type="text">
+                                <i id="cvc" class="fa fa-question-circle"></i>
+                            </div>
+                        </div>
+                        <button id="PayButton"
+                            class="btn btn-block btn-success submit-button"
+                            type="submit">Pay</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-   
-    <footer class="footer" style="width: 100%;">
-        <div class="container">
-            <div class="row">
+        <footer class="footer" style="width: 100%;">
+            <div class="container">
+                <div class="row">
 
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Our Services</a></li>
-                        <li><a href="#team">Meet Our Team</a></li>
-                        <li><a href="#privacy">Privacy Policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Get Help</h4>
-                    <ul>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#shipping">Delivery
-                                Information</a></li>
-                        <li><a href="#returns">Return Policy</a></li>
-                        <li><a href="#order-status">Order
-                                Status</a></li>
-                        <li><a href="#payment-options">Payment
-                                Options</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Our Products</h4>
-                    <ul>
-                        <li><a href="#prescriptions">Prescription
-                                Medications</a></li>
-                        <li><a href="#otc">Over-the-Counter</a></li>
-                        <li><a href="#supplements">Supplements</a></li>
-                        <li><a href="#health-products">Health & Wellness
-                                Products</a></li>
-                    </ul>
-                </div>
-               
                     <div class="footer-col">
-                        <h3 class="f-title f_600 f_size_18" style="color: white;">Team Solutions</h3>
-                        <div class="f_social_icon">
-                            <a href="https://www.facebook.com/amira.hashem.9469/" class="fab fa-facebook" aria-label="Facebook" target="_blank"></a>
-                            <a href="https://x.com/?lang=ar" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
-                            <a href="https://github.com/FCIamira" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-                            <a href="https://www.linkedin.com/in/amira-hashem-505729284/" class="fab fa-instagram" aria-label="Linkedin" target=""></a>
-                        </div>
-               
-            </div>
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Our Services</a></li>
+                            <li><a href="#team">Meet Our Team</a></li>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
 
-        </div>
-    </div>
-    </footer>
-</body>
+                    <div class="footer-col">
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#shipping">Delivery
+                                    Information</a></li>
+                            <li><a href="#returns">Return Policy</a></li>
+                            <li><a href="#order-status">Order
+                                    Status</a></li>
+                            <li><a href="#payment-options">Payment
+                                    Options</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Our Products</h4>
+                        <ul>
+                            <li><a href="#prescriptions">Prescription
+                                    Medications</a></li>
+                            <li><a href="#otc">Over-the-Counter</a></li>
+                            <li><a href="#supplements">Supplements</a></li>
+                            <li><a href="#health-products">Health & Wellness
+                                    Products</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h3 class="f-title f_600 f_size_18"
+                            style="color: white;">Team Solutions</h3>
+                        <div class="f_social_icon">
+                            <a
+                                href="https://www.facebook.com/amira.hashem.9469/"
+                                class="fab fa-facebook" aria-label="Facebook"
+                                target="_blank"></a>
+                            <a href="https://x.com/?lang=ar"
+                                class="fab fa-twitter" aria-label="Twitter"
+                                target="_blank"></a>
+                            <a href="https://github.com/FCIamira"
+                                class="fab fa-github" aria-label="GitHub"
+                                target="_blank"></a>
+                            <a
+                                href="https://www.linkedin.com/in/amira-hashem-505729284/"
+                                class="fab fa-instagram" aria-label="Linkedin"
+                                target></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

@@ -156,7 +156,7 @@ textarea {
 }
 
 #contactus .input1 {
-  width: 47%;
+  width: 45%;
   height: 40px;
 }
 
@@ -215,7 +215,7 @@ form button {
 /* page_about */
 #about{
 
-  background-image: url(/images/slider3.jpg);
+  background-image: url(images/slider3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
